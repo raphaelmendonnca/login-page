@@ -15,6 +15,15 @@ body {
 .title {
     text-align: center;
     font-size: 50px;
+    text-shadow: 0 0 10px #581556;
+    transition: 200ms;
+}
+
+.title:hover {
+    transition: 200ms;
+    color: #581556;
+    text-align: center;
+    text-shadow: 0 0 50px #FFF;
 }
 
 .content {
@@ -64,11 +73,12 @@ button {
     font-size: 120%;
     color: rgb(105, 12, 51);
     outline-style: none;
+    transition: 200ms;
 }
 
 button:hover {
-    background: -webkit-linear-gradient(to right, #E94057, #972467);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E94057, #972467); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 200ms;
+    background-color: #8a235f;
     color: #fff;
 }
 
@@ -80,6 +90,6 @@ button:hover {
     color:aliceblue;
   }
   
-  ::-ms-input-placeholder { 
+::-ms-input-placeholder { 
     color:aliceblue;
   }
